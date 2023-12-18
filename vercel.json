@@ -1,18 +1,15 @@
 {
-    "version": 2,
+        
     "builds": [
         {
-            "src": "vercel-django-handler.py",
+            "src": "portFolioBackend/wsgi.py",
             "use": "@vercel/python"
         }
     ],
-    "routes": [
+    "router": [
         {
             "src": "/(.*)",
-            "dest": "vercel-django-handler.py"
+            "dest": "portFolioBackend/wsgi.py"
         }
-    ],
-    "env": {
-        "DJANGO_SETTINGS_MODULE": "myproject.settings"
-    }
+    ]
 }
