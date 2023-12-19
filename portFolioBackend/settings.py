@@ -27,9 +27,10 @@ SECRET_KEY = 'django-insecure-+4*eov#t1hy+a9l%$*0)2seo9a)gr4l$3(g@p6wzfsu5pbh0$9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app','now.sh','127.0.0.1','loacalhost']
+# ALLOWED_HOSTS = ['.vercel.app','now.sh','127.0.0.1','loacalhost']
+ALLOWED_HOSTS = ['*']
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",  # Add the origin of your React app
+    "https://shivraj-kolwankar.netlify.app",  # Add the origin of your React app
 ]
 
 
