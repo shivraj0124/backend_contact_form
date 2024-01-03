@@ -30,7 +30,8 @@ DEBUG = True
 # ALLOWED_HOSTS = ['.vercel.app','now.sh','127.0.0.1','loacalhost']
 ALLOWED_HOSTS = ['*']
 CORS_ALLOWED_ORIGINS = [
-    "https://shivraj-kolwankar.netlify.app",  # Add the origin of your React app
+    "https://shivrajkolwankar.netlify.app",  # Add the origin of your React app
+    # ""
 ]
 
 
